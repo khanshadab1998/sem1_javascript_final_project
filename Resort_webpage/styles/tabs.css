@@ -1,0 +1,142 @@
+#tabs {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.tabs-header {
+  color: white;
+  margin: 0 auto;
+  width: 400px;
+  position: relative;
+  top: -20px;
+}
+.tabs-header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.tabs-header li {
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  background-color: #d2ba8a;
+  width: 50%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tabs-header li:first-child {
+  border-radius: 4px 0px 0px 4px;
+}
+
+.tabs-header li:last-child {
+  border-radius: 0 4px 4px 0;
+}
+
+.tabs-header li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.tabs-header li:hover {
+  background-color: #28166f;
+}
+
+.tabs-header li.active {
+  background-color: #28166f;
+}
+.tabs-content {
+  padding: 20px;
+}
+
+.packages {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 10px;
+  column-gap: 20px;
+}
+
+.book-card {
+  line-height: 1.5;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.035);
+  transition: 0.3s ease;
+}
+
+.book-card-body {
+  border-radius: 6px 6px 0 0;
+  font-size: 16px;
+  font-weight: 500;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-info img {
+  width: 100%;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.card-name {
+  font-size: 24px;
+  margin: 0px;
+}
+
+.card-price {
+  margin: 0;
+}
+.book-card-footer {
+  padding: 20px 15px 15px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.book-card-footer p:last-child {
+  color: #828282;
+}
+
+/* footer css */
+footer {
+  background-color: #eee6d4;
+  font-size: 14px;
+  padding: 20px 0px;
+  background-image: url(../images/enhancecolor.png);
+}
+
+footer > div {
+  width: 80%;
+  margin: auto;
+}
+footer h2 {
+  margin-top: 0;
+  text-align: center;
+}
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.contact-info div {
+  flex: 1;
+  text-align: left;
+  align-self: baseline;
+}
+
+.contact-info div:last-child {
+  text-align: right;
+}
+.copyright {
+  margin-top: 20px;
+  text-align: center;
+}

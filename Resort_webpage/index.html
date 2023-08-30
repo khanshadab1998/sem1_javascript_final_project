@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atithi Resort - Home</title>
+    <!-- lightbox css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <header>
+      <a href="./index.html" class="logo">
+        <img src="images/logo.png" alt="Atithi Resort" />
+      </a>
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./scenes/about.html">About Us</a>
+        <a href="../scenes/rooms.html">Rooms</a>
+        <a href="../scenes/events.html">Events</a>
+        <a href="./scenes/gallery.html">Gallery</a>
+      </nav>
+    </header>
+    <main>
+      <div class="banner">
+        <img src="images/home.jpeg" alt="Banner Home Image" />
+        <div class="banner-content">
+          <h2>Welcome to Our Hotel</h2>
+        </div>
+      </div>
+
+      <div id="tabs">
+        <div class="tabs-header">
+          <ul>
+            <li class="active"><a href="#tab-1">Recreation</a></li>
+            <li><a href="#tab-2">Package</a></li>
+          </ul>
+        </div>
+        <div id="tab-1" class="tabs-content">
+          <div class="packages">
+            <div class="book-card">
+              <div class="book-card-body">
+                <div class="card-info">
+                  <a
+                    href="images/fitnesscenter.jpeg"
+                    data-lightbox="gallery"
+                    data-title="Fitness Center"
+                  >
+                    <img src="images/fitnesscenter.jpeg" alt="fitness center" />
+                  </a>
+                </div>
+              </div>
+              <div class="book-card-footer">
+                <h3 class="card-name">Fitness Center</h3>
+                <p class="card-price">$ 100</p>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
+                  obcaecati repudiandae optio?
+                </p>
+              </div>
+            </div>
+
+            <div class="book-card">
+              <div class="book-card-body">
+                <div class="card-info">
+                  <a
+                    href="images/spa.jpeg"
+                    data-lightbox="gallery"
+                    data-title="Oasis Center"
+                  >
+                    <img src="images/spa.jpeg" alt="oasis spa" />
+                  </a>
+                </div>
+              </div>
+              <div class="book-card-footer">
+                <h3 class="card-name">Oasis Spa</h3>
+                <p class="card-price">$ 200</p>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
+                  obcaecati repudiandae optio?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="tab-2" class="tabs-content">
+          <div class="packages">
+            <div class="book-card">
+              <div class="book-card-body">
+                <div class="card-info">
+                  <a
+                    href="images/package.jpeg"
+                    data-lightbox="gallery"
+                    data-title="Enjoyable Family Vacation Tour Package"
+                  >
+                    <img src="images/package.jpeg" alt="family tour" />
+                  </a>
+                </div>
+              </div>
+              <div class="book-card-footer">
+                <h3 class="card-name">2N3D Family Tour</h3>
+                <p class="card-price">$ 2,000</p>
+                <p>3 nights' Accommodation in a deluxe room</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div>
+        <h2>Athiti Resort</h2>
+        <div class="contact-info">
+          <div>
+            <img src="images/tripadvisor.png" alt="trip advisor best award" />
+          </div>
+          <div>
+            <h4>Resort</h4>
+            Shanti Patan, Lakeside, Pokhara-6, Nepal<br />
+            Tel. : +977 123456789<br />
+          </div>
+          <div>
+            <h4>Sales Office</h4>
+            Lazimpat, Kathmandu, Nepal<br />
+            Tel. : +977 123456789<br />
+            Email: info@atithiresort.com
+          </div>
+        </div>
+
+        <div class="copyright">
+          © 2023 Atithi Resort. All Rights Reserved.<br />
+          Developed by: Longtail e-media
+        </div>
+      </div>
+    </footer>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- jquery ui for widget -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- lightbox jquery plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <!-- custom js file -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
